@@ -46,6 +46,13 @@ var (
 	gcpLinkRgx   = regexp.MustCompile(`google-cloud-icons\.zip$`)
 	removeSuffix = regexp.MustCompile(`(_[\d]{8})`)
 	removePrefix = regexp.MustCompile(`(Azure_Public_Service_Icons/Icons)`)
+
+	awsReplacer = strings.NewReplacer(
+		"Architecture-Service-Icons", "service", "Arch_", "",
+		"Category-Icons", "category", "Arch-Category_", "",
+		"Resource-Icons", "resource", "Res_", "",
+		"_16", "", "_32", "", "_48", "", "_64", "", // order matters, this must be last
+	)
 )
 
 func main() {
@@ -216,15 +223,15 @@ func skipFiles(name string) bool {
 	}
 
 	// skip AWS icon sizes < 64
-	if strings.Contains(name, "16") {
-		return true
-	}
-	if strings.Contains(name, "32") {
-		return true
-	}
-	if strings.Contains(name, "48") {
-		return true
-	}
+	// if strings.Contains(name, "16") {
+	// 	return true
+	// }
+	// if strings.Contains(name, "32") {
+	// 	return true
+	// }
+	// if strings.Contains(name, "48") {
+	// 	return true
+	// }
 
 	return false
 }
@@ -235,6 +242,9 @@ func getFilepath(dst, file string) string {
 
 	// remove suffixes
 	name = removeSuffix.ReplaceAllString(name, "")
+
+	// replace original directory names
+	name = awsReplacer.Replace(name)
 
 	// create the destination file path
 	filePath := filepath.Join(dst, name)
