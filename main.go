@@ -44,14 +44,14 @@ var (
 
 	awsLinkRgx   = regexp.MustCompile(`/Asset-Package_([A-Za-z0-9]+(\.[A-Za-z0-9]+)+)\.zip$`)
 	gcpLinkRgx   = regexp.MustCompile(`google-cloud-icons\.zip$`)
+	removePrefix = regexp.MustCompile(`(Azure_Public_Service_Icons/Icons)|([\d]+-icon-service-)`)
 	removeSuffix = regexp.MustCompile(`(_[\d]{8})`)
-	removePrefix = regexp.MustCompile(`(Azure_Public_Service_Icons/Icons)`)
 
 	awsReplacer = strings.NewReplacer(
 		"Architecture-Service-Icons", "service", "Arch_", "",
 		"Category-Icons", "category", "Arch-Category_", "",
 		"Resource-Icons", "resource", "Res_", "",
-		"_16", "", "_32", "", "_48", "", "_64", "", // order matters, this must be last
+		"_16", "", "_32", "", "_48", "", "_64", "", "48_", "", // order matters, this must be last
 	)
 )
 
