@@ -9,7 +9,8 @@ import (
 var (
 	Resources = []*resource.Resource{
 		{
-			Name: "aws_accessanalyzer_analyzer",
+			Name:    "aws_accessanalyzer_analyzer",
+			IconURL: "https:/raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_IAM-Access-Analyzer.svg",
 		},
 		{
 			Name: "aws_accessanalyzer_archive_rule",
@@ -1728,7 +1729,8 @@ var (
 			Name: "aws_iam_policy_attachment",
 		},
 		{
-			Name: "aws_iam_role",
+			Name:    "aws_iam_role",
+			IconURL: "https:/raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_Role.svg",
 		},
 		{
 			Name: "aws_iam_role_policy",

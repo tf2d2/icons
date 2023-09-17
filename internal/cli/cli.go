@@ -20,7 +20,8 @@ import (
 )
 
 const (
-	outputDir = "providers"
+	outputDir     = "providers"
+	iconURLPrefix = "https://raw.githubusercontent.com/tf2d2/icons/main"
 )
 
 var (
@@ -206,14 +207,16 @@ func generateJSONFiles(ctx context.Context, resources map[string][]*resource.Res
 			}
 		}
 
-		// delete resource no longer found in provider
+		// delete resources no longer found in provider
 		if current > 0 {
 			for ck, cv := range currentJSONResources {
 				found := false
 				for _, r := range v {
 					if ck == r.Name {
 						found = true
-						r.IconURL = cv
+						if cv != "" {
+							r.IconURL = filepath.Join(iconURLPrefix, cv)
+						}
 					}
 				}
 				if !found {
