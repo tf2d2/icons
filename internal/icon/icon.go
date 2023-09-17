@@ -56,6 +56,7 @@ var (
 		"Architecture-Service-Icons", "service", "Arch_", "",
 		"Category-Icons", "category", "Arch-Category_", "",
 		"Resource-Icons", "resource", "Res_", "",
+		":", "-", // to prevent malformed file paths when importing as module
 		"_16", "", "_32", "", "_48", "", "_64", "", "48_", "", // order matters, this must be last
 	)
 )
