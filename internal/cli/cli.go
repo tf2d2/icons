@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
@@ -215,7 +216,12 @@ func generateJSONFiles(ctx context.Context, resources map[string][]*resource.Res
 					if ck == r.Name {
 						found = true
 						if cv != "" {
-							r.IconURL = filepath.Join(iconURLPrefix, cv)
+							var urlPath string
+							urlPath, err = url.JoinPath(iconURLPrefix, cv)
+							if err != nil {
+								return fmt.Errorf("error parsing icon url: %s", err.Error())
+							}
+							r.IconURL = urlPath
 						}
 					}
 				}
