@@ -234,7 +234,7 @@ func generateJSONFiles(ctx context.Context, resources map[string][]*resource.Res
 		if err != nil {
 			return fmt.Errorf("error opening file %s: %s", jsonFilename, err.Error())
 		}
-		defer f.Close()
+		defer f.Close() //nolint:errcheck
 
 		e := json.NewEncoder(f)
 		e.SetEscapeHTML(false)

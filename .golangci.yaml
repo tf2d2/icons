@@ -137,6 +137,10 @@ issues:
         - scopelint
         - unparam
         - goconst
+    - path: (aws|azure|azurerm|gcp|google)
+      linters:
+        - misspell
+        - revive
 
     # G110: Potential DoS vulnerability via decompression bomb
     # ignore error in main.go:229:15 because the download sources

@@ -16,11 +16,13 @@ import (
 //go:embed resources.tmpl
 var tpl string
 
+// Template represents the template data used to generate resource details
 type Template struct {
 	Provider  string
 	Resources []*resource.Resource
 }
 
+// New returns a new Template instance
 func New(provider string, resources []*resource.Resource) *Template {
 	return &Template{
 		Provider:  provider,
