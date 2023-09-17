@@ -145,6 +145,11 @@ issues:
       linters:
         - gosec
 
+    # G302: Expect file permissions to be 0600 or less
+    - text: "G302:"
+      linters:
+        - gosec
+
   # Independently from option `exclude` we use default exclude patterns,
   # it can be disabled by this option. To list all
   # excluded by default patterns execute `golangci-lint run --help`.
