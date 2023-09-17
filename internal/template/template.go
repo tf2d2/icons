@@ -13,7 +13,7 @@ import (
 	"github.com/tf2d2/icons/internal/resource"
 )
 
-//go:embed resources.tmpl
+//go:embed resources.tpl
 var tpl string
 
 // Template represents the template data used to generate resource details
