@@ -3,7 +3,7 @@
   "aws_accessanalyzer_archive_rule": "",
   "aws_account_alternate_contact": "",
   "aws_account_primary_contact": "",
-  "aws_acm_certificate": "/aws/service/Security-Identity-Compliance/64/AWS-Certificate-Manager.svg/Users/iacb/dev/icons/aws/service/Security-Identity-Compliance/64/AWS-Certificate-Manager.svg",
+  "aws_acm_certificate": "/aws/service/Security-Identity-Compliance/64/AWS-Certificate-Manager.svg",
   "aws_acm_certificate_validation": "",
   "aws_acmpca_certificate": "/aws/service/Security-Identity-Compliance/64/AWS-Private-Certificate-Authority.svg",
   "aws_acmpca_certificate_authority": "/aws/service/Security-Identity-Compliance/64/AWS-Private-Certificate-Authority.svg",

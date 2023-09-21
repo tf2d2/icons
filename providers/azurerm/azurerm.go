@@ -9,10 +9,12 @@ import (
 var (
 	Resources = []*resource.Resource{
 		{
-			Name: "azurerm_aadb2c_directory",
+			Name:    "azurerm_aadb2c_directory",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/identity/Azure-AD-B2C.svg",
 		},
 		{
-			Name: "azurerm_active_directory_domain_service",
+			Name:    "azurerm_active_directory_domain_service",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/identity/Azure-AD-Domain-Services.svg",
 		},
 		{
 			Name: "azurerm_active_directory_domain_service_replica_set",
@@ -27,13 +29,16 @@ var (
 			Name: "azurerm_analysis_services_server",
 		},
 		{
-			Name: "azurerm_api_connection",
+			Name:    "azurerm_api_connection",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/integration/API-Connections.svg",
 		},
 		{
-			Name: "azurerm_api_management",
+			Name:    "azurerm_api_management",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/integration/API-Management-Services.svg",
 		},
 		{
-			Name: "azurerm_api_management_api",
+			Name:    "azurerm_api_management_api",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/integration/API-Management-Services.svg",
 		},
 		{
 			Name: "azurerm_api_management_api_diagnostic",
@@ -168,7 +173,8 @@ var (
 			Name: "azurerm_api_management_user",
 		},
 		{
-			Name: "azurerm_app_configuration",
+			Name:    "azurerm_app_configuration",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/integration/App-Configuration.svg",
 		},
 		{
 			Name: "azurerm_app_configuration_feature",
@@ -177,13 +183,15 @@ var (
 			Name: "azurerm_app_configuration_key",
 		},
 		{
-			Name: "azurerm_app_service",
+			Name:    "azurerm_app_service",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/app_services/App-Services.svg",
 		},
 		{
 			Name: "azurerm_app_service_active_slot",
 		},
 		{
-			Name: "azurerm_app_service_certificate",
+			Name:    "azurerm_app_service_certificate",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/app_services/App-Service-Certificates.svg",
 		},
 		{
 			Name: "azurerm_app_service_certificate_binding",
@@ -198,7 +206,8 @@ var (
 			Name: "azurerm_app_service_custom_hostname_binding",
 		},
 		{
-			Name: "azurerm_app_service_environment",
+			Name:    "azurerm_app_service_environment",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/app_services/App-Service-Environments.svg",
 		},
 		{
 			Name: "azurerm_app_service_environment_v3",
@@ -210,10 +219,12 @@ var (
 			Name: "azurerm_app_service_managed_certificate",
 		},
 		{
-			Name: "azurerm_app_service_plan",
+			Name:    "azurerm_app_service_plan",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/app_services/App-Service-Plans.svg",
 		},
 		{
-			Name: "azurerm_app_service_public_certificate",
+			Name:    "azurerm_app_service_public_certificate",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/app_services/App-Service-Certificates.svg",
 		},
 		{
 			Name: "azurerm_app_service_slot",
@@ -237,10 +248,12 @@ var (
 			Name: "azurerm_app_service_virtual_network_swift_connection",
 		},
 		{
-			Name: "azurerm_application_gateway",
+			Name:    "azurerm_application_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/networking/Application-Gateways.svg",
 		},
 		{
-			Name: "azurerm_application_insights",
+			Name:    "azurerm_application_insights",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/monitor/Application-Insights.svg",
 		},
 		{
 			Name: "azurerm_application_insights_analytics_item",
@@ -264,10 +277,12 @@ var (
 			Name: "azurerm_application_insights_workbook_template",
 		},
 		{
-			Name: "azurerm_application_security_group",
+			Name:    "azurerm_application_security_group",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/security/Application-Security-Groups.svg",
 		},
 		{
-			Name: "azurerm_arc_kubernetes_cluster",
+			Name:    "azurerm_arc_kubernetes_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/other/Arc-Kubernetes.svg",
 		},
 		{
 			Name: "azurerm_arc_kubernetes_cluster_extension",
@@ -276,7 +291,8 @@ var (
 			Name: "azurerm_arc_kubernetes_flux_configuration",
 		},
 		{
-			Name: "azurerm_arc_machine_extension",
+			Name:    "azurerm_arc_machine_extension",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/management_governance/Arc-Machines.svg",
 		},
 		{
 			Name: "azurerm_arc_private_link_scope",
@@ -366,7 +382,8 @@ var (
 			Name: "azurerm_automation_webhook",
 		},
 		{
-			Name: "azurerm_availability_set",
+			Name:    "azurerm_availability_set",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/compute/Availability-Sets.svg",
 		},
 		{
 			Name: "azurerm_backup_container_storage_account",
@@ -390,7 +407,8 @@ var (
 			Name: "azurerm_bastion_host",
 		},
 		{
-			Name: "azurerm_batch_account",
+			Name:    "azurerm_batch_account",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/compute/Batch-Accounts.svg",
 		},
 		{
 			Name: "azurerm_batch_application",
@@ -408,7 +426,8 @@ var (
 			Name: "azurerm_billing_account_cost_management_export",
 		},
 		{
-			Name: "azurerm_blueprint_assignment",
+			Name:    "azurerm_blueprint_assignment",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/management_governance/Blueprints.svg",
 		},
 		{
 			Name: "azurerm_bot_channel_alexa",
@@ -447,16 +466,19 @@ var (
 			Name: "azurerm_bot_connection",
 		},
 		{
-			Name: "azurerm_bot_service_azure_bot",
+			Name:    "azurerm_bot_service_azure_bot",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/ai_machine_learning/Bot-Services.svg",
 		},
 		{
 			Name: "azurerm_bot_web_app",
 		},
 		{
-			Name: "azurerm_capacity_reservation",
+			Name:    "azurerm_capacity_reservation",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/other/Reserved-Capacity.svg",
 		},
 		{
-			Name: "azurerm_capacity_reservation_group",
+			Name:    "azurerm_capacity_reservation_group",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/other/Capacity-Reservation-Groups.svg",
 		},
 		{
 			Name: "azurerm_cdn_endpoint",
@@ -2160,7 +2182,8 @@ var (
 			Name: "azurerm_private_endpoint_application_security_group_association",
 		},
 		{
-			Name: "azurerm_private_link_service",
+			Name:    "azurerm_private_link_service",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/azure/analytics/Private-Link-Services.svg",
 		},
 		{
 			Name: "azurerm_proximity_placement_group",

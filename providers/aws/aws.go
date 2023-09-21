@@ -23,7 +23,7 @@ var (
 		},
 		{
 			Name:    "aws_acm_certificate",
-			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Certificate-Manager.svg/Users/iacb/dev/icons/aws/service/Security-Identity-Compliance/64/AWS-Certificate-Manager.svg",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Certificate-Manager.svg",
 		},
 		{
 			Name: "aws_acm_certificate_validation",
