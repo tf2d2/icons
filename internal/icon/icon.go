@@ -47,17 +47,28 @@ var (
 		"azure": "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V17.zip",
 	}
 
-	awsLinkRgx   = regexp.MustCompile(`/Asset-Package_([A-Za-z0-9]+(\.[A-Za-z0-9]+)+)\.zip$`)
-	gcpLinkRgx   = regexp.MustCompile(`google-cloud-icons\.zip$`)
-	removePrefix = regexp.MustCompile(`(Azure_Public_Service_Icons/Icons)|([\d]+-icon-service-)`)
-	removeSuffix = regexp.MustCompile(`(_[\d]{8})`)
+	awsLinkRgx         = regexp.MustCompile(`/Asset-Package_([A-Za-z0-9]+(\.[A-Za-z0-9]+)+)\.zip$`)
+	gcpLinkRgx         = regexp.MustCompile(`google-cloud-icons\.zip$`)
+	azureIconPrefixRgx = regexp.MustCompile(`([\d]+-icon-service-)`)
+	awsIconSuffixRgx   = regexp.MustCompile(`(_[\d]{8})`)
 
 	awsReplacer = strings.NewReplacer(
+		// remove unnecessary prefixes
 		"Architecture-Service-Icons", "service", "Arch_", "",
 		"Category-Icons", "category", "Arch-Category_", "",
 		"Resource-Icons", "resource", "Res_", "",
+		" ", "", // remove whitespace
 		":", "-", // to prevent malformed file paths when importing as module
-		"_16", "", "_32", "", "_48", "", "_64", "", "48_", "", // order matters, this must be last
+		// remove unnecessary suffixes, order matters so this must be last
+		"_16", "", "_32", "", "_48", "", "_64", "", "48_", "",
+	)
+	azureReplacer = strings.NewReplacer(
+		"Azure_Public_Service_Icons/Icons", "", // remove unnecessary long prefix
+		// remove '+' sign to avoid html-encoded characters in icon urls:
+		// 'ai + machine learning' => 'ai_machine_learning'
+		// 'management + governance' => 'management_governance'
+		// 'Web-App-+-Database.svg' => 'Web-App-Database.svg'
+		" + ", "_", "-+-", "-", " ", "_",
 	)
 )
 
@@ -98,7 +109,13 @@ func GetIconDetails(ctx context.Context) error {
 	for cloud, url := range downloadUrls {
 		outputFile := fmt.Sprintf("%s.zip", cloud)
 
-		err := downloadFile(ctx, url, outputFile)
+		// remove existing icons folder
+		err := os.RemoveAll(cloud)
+		if err != nil {
+			return err
+		}
+
+		err = downloadFile(ctx, url, outputFile)
 		if err != nil {
 			return err
 		}
@@ -253,18 +270,26 @@ func skipFiles(name string) bool {
 	return false
 }
 
-func getFilepath(dst, file string) string {
-	// remove prefixes
-	name := removePrefix.ReplaceAllString(file, "")
-
-	// remove suffixes
-	name = removeSuffix.ReplaceAllString(name, "")
-
-	// replace original directory names
-	name = awsReplacer.Replace(name)
+func getFilepath(destination, filename string) string {
+	var result string
+	switch destination {
+	case "aws":
+		result = awsIconSuffixRgx.ReplaceAllString(filename, "")
+		result = awsReplacer.Replace(result)
+	case "azure":
+		result = azureIconPrefixRgx.ReplaceAllString(filename, "")
+		result = azureReplacer.Replace(result)
+		// remove underscore in '_.svg':
+		// 'Arc-PostgreSQL_.svg' => 'Arc-PostgreSQL.svg'
+		if strings.HasSuffix(result, "_.svg") {
+			result = strings.ReplaceAll(result, "_.svg", ".svg")
+		}
+	case "gcp":
+		result = filename
+	}
 
 	// create the destination file path
-	filePath := filepath.Join(dst, name)
+	filePath := filepath.Join(destination, result)
 
 	return filePath
 }
