@@ -22,19 +22,23 @@ var (
 			Name: "aws_account_primary_contact",
 		},
 		{
-			Name: "aws_acm_certificate",
+			Name:    "aws_acm_certificate",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Certificate-Manager.svg/Users/iacb/dev/icons/aws/service/Security-Identity-Compliance/64/AWS-Certificate-Manager.svg",
 		},
 		{
 			Name: "aws_acm_certificate_validation",
 		},
 		{
-			Name: "aws_acmpca_certificate",
+			Name:    "aws_acmpca_certificate",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Private-Certificate-Authority.svg",
 		},
 		{
-			Name: "aws_acmpca_certificate_authority",
+			Name:    "aws_acmpca_certificate_authority",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Private-Certificate-Authority.svg",
 		},
 		{
-			Name: "aws_acmpca_certificate_authority_certificate",
+			Name:    "aws_acmpca_certificate_authority_certificate",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Private-Certificate-Authority.svg",
 		},
 		{
 			Name: "aws_acmpca_permission",
@@ -43,7 +47,8 @@ var (
 			Name: "aws_acmpca_policy",
 		},
 		{
-			Name: "aws_alb",
+			Name:    "aws_alb",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/Elastic-Load-Balancing.svg",
 		},
 		{
 			Name: "aws_alb_listener",
@@ -61,7 +66,8 @@ var (
 			Name: "aws_alb_target_group_attachment",
 		},
 		{
-			Name: "aws_ami",
+			Name:    "aws_ami",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Compute/Amazon-EC2_AMI.svg",
 		},
 		{
 			Name: "aws_ami_copy",
@@ -73,7 +79,8 @@ var (
 			Name: "aws_ami_launch_permission",
 		},
 		{
-			Name: "aws_amplify_app",
+			Name:    "aws_amplify_app",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Front-End-Web-Mobile/64/AWS-Amplify.svg",
 		},
 		{
 			Name: "aws_amplify_backend_environment",
@@ -142,7 +149,8 @@ var (
 			Name: "aws_api_gateway_resource",
 		},
 		{
-			Name: "aws_api_gateway_rest_api",
+			Name:    "aws_api_gateway_rest_api",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/App-Integration/64/Amazon-API-Gateway.svg",
 		},
 		{
 			Name: "aws_api_gateway_rest_api_policy",
@@ -160,7 +168,8 @@ var (
 			Name: "aws_api_gateway_vpc_link",
 		},
 		{
-			Name: "aws_apigatewayv2_api",
+			Name:    "aws_apigatewayv2_api",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/App-Integration/64/Amazon-API-Gateway.svg",
 		},
 		{
 			Name: "aws_apigatewayv2_api_mapping",
@@ -208,7 +217,8 @@ var (
 			Name: "aws_appautoscaling_target",
 		},
 		{
-			Name: "aws_appconfig_application",
+			Name:    "aws_appconfig_application",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/AWS-AppConfig.svg",
 		},
 		{
 			Name: "aws_appconfig_configuration_profile",
@@ -235,7 +245,8 @@ var (
 			Name: "aws_appflow_connector_profile",
 		},
 		{
-			Name: "aws_appflow_flow",
+			Name:    "aws_appflow_flow",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/App-Integration/64/Amazon-AppFlow.svg",
 		},
 		{
 			Name: "aws_appintegrations_data_integration",
@@ -250,22 +261,27 @@ var (
 			Name: "aws_appmesh_gateway_route",
 		},
 		{
-			Name: "aws_appmesh_mesh",
+			Name:    "aws_appmesh_mesh",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/AWS-App-Mesh.svg",
 		},
 		{
 			Name: "aws_appmesh_route",
 		},
 		{
-			Name: "aws_appmesh_virtual_gateway",
+			Name:    "aws_appmesh_virtual_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/AWS-App-Mesh_Virtual-Gateway.svg",
 		},
 		{
-			Name: "aws_appmesh_virtual_node",
+			Name:    "aws_appmesh_virtual_node",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/AWS-App-Mesh_Virtual-Node.svg",
 		},
 		{
-			Name: "aws_appmesh_virtual_router",
+			Name:    "aws_appmesh_virtual_router",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/AWS-App-Mesh_Virtual-Router.svg",
 		},
 		{
-			Name: "aws_appmesh_virtual_service",
+			Name:    "aws_appmesh_virtual_service",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/icons/aws/resource/Networking-Content-Delivery/AWS-App-Mesh_Virtual-Service.svg",
 		},
 		{
 			Name: "aws_apprunner_auto_scaling_configuration_version",
@@ -280,7 +296,8 @@ var (
 			Name: "aws_apprunner_observability_configuration",
 		},
 		{
-			Name: "aws_apprunner_service",
+			Name:    "aws_apprunner_service",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Compute/64/AWS-App-Runner.svg",
 		},
 		{
 			Name: "aws_apprunner_vpc_connector",
@@ -292,7 +309,8 @@ var (
 			Name: "aws_appstream_directory_config",
 		},
 		{
-			Name: "aws_appstream_fleet",
+			Name:    "aws_appstream_fleet",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/End-User-Computing/64/Amazon-AppStream.svg",
 		},
 		{
 			Name: "aws_appstream_fleet_stack_association",
@@ -328,7 +346,8 @@ var (
 			Name: "aws_appsync_function",
 		},
 		{
-			Name: "aws_appsync_graphql_api",
+			Name:    "aws_appsync_graphql_api",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/App-Integration/64/AWS-AppSync.svg",
 		},
 		{
 			Name: "aws_appsync_resolver",
@@ -340,7 +359,8 @@ var (
 			Name: "aws_athena_data_catalog",
 		},
 		{
-			Name: "aws_athena_database",
+			Name:    "aws_athena_database",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-Athena.svg",
 		},
 		{
 			Name: "aws_athena_named_query",
@@ -364,7 +384,8 @@ var (
 			Name: "aws_auditmanager_control",
 		},
 		{
-			Name: "aws_auditmanager_framework",
+			Name:    "aws_auditmanager_framework",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Audit-Manager.svg",
 		},
 		{
 			Name: "aws_auditmanager_framework_share",
@@ -400,13 +421,15 @@ var (
 			Name: "aws_autoscalingplans_scaling_plan",
 		},
 		{
-			Name: "aws_backup_framework",
+			Name:    "aws_backup_framework",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/AWS-Backup.svg",
 		},
 		{
 			Name: "aws_backup_global_settings",
 		},
 		{
-			Name: "aws_backup_plan",
+			Name:    "aws_backup_plan",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Storage/AWS-Backup_Backup-Plan.svg",
 		},
 		{
 			Name: "aws_backup_region_settings",
@@ -418,10 +441,12 @@ var (
 			Name: "aws_backup_selection",
 		},
 		{
-			Name: "aws_backup_vault",
+			Name:    "aws_backup_vault",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Storage/AWS-Backup_Backup-Vault.svg",
 		},
 		{
-			Name: "aws_backup_vault_lock_configuration",
+			Name:    "aws_backup_vault_lock_configuration",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Storage/AWS-Backup_Vault-Lock.svg",
 		},
 		{
 			Name: "aws_backup_vault_notifications",
@@ -433,7 +458,8 @@ var (
 			Name: "aws_batch_compute_environment",
 		},
 		{
-			Name: "aws_batch_job_definition",
+			Name:    "aws_batch_job_definition",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Compute/64/AWS-Batch.svg",
 		},
 		{
 			Name: "aws_batch_job_queue",
@@ -442,7 +468,8 @@ var (
 			Name: "aws_batch_scheduling_policy",
 		},
 		{
-			Name: "aws_budgets_budget",
+			Name:    "aws_budgets_budget",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Cloud-Financial-Management/64/AWS-Budgets.svg",
 		},
 		{
 			Name: "aws_budgets_budget_action",
@@ -460,7 +487,8 @@ var (
 			Name: "aws_ce_cost_category",
 		},
 		{
-			Name: "aws_chime_voice_connector",
+			Name:    "aws_chime_voice_connector",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Business-Applications/64/Amazon-Chime.svg",
 		},
 		{
 			Name: "aws_chime_voice_connector_group",
@@ -499,16 +527,19 @@ var (
 			Name: "aws_cleanrooms_collaboration",
 		},
 		{
-			Name: "aws_cloud9_environment_ec2",
+			Name:    "aws_cloud9_environment_ec2",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Developer-Tools/64/AWS-Cloud9.svg",
 		},
 		{
 			Name: "aws_cloud9_environment_membership",
 		},
 		{
-			Name: "aws_cloudcontrolapi_resource",
+			Name:    "aws_cloudcontrolapi_resource",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Developer-Tools/64/AWS-Cloud-Control-API.svg",
 		},
 		{
-			Name: "aws_cloudformation_stack",
+			Name:    "aws_cloudformation_stack",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/AWS-CloudFormation_Stack.svg",
 		},
 		{
 			Name: "aws_cloudformation_stack_set",
@@ -526,7 +557,8 @@ var (
 			Name: "aws_cloudfront_continuous_deployment_policy",
 		},
 		{
-			Name: "aws_cloudfront_distribution",
+			Name:    "aws_cloudfront_distribution",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/Amazon-CloudFront.svg",
 		},
 		{
 			Name: "aws_cloudfront_field_level_encryption_config",
@@ -535,7 +567,8 @@ var (
 			Name: "aws_cloudfront_field_level_encryption_profile",
 		},
 		{
-			Name: "aws_cloudfront_function",
+			Name:    "aws_cloudfront_function",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-CloudFront_Functions.svg",
 		},
 		{
 			Name: "aws_cloudfront_key_group",
@@ -562,19 +595,22 @@ var (
 			Name: "aws_cloudfront_response_headers_policy",
 		},
 		{
-			Name: "aws_cloudhsm_v2_cluster",
+			Name:    "aws_cloudhsm_v2_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-CloudHSM.svg",
 		},
 		{
 			Name: "aws_cloudhsm_v2_hsm",
 		},
 		{
-			Name: "aws_cloudsearch_domain",
+			Name:    "aws_cloudsearch_domain",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-CloudSearch.svg",
 		},
 		{
 			Name: "aws_cloudsearch_domain_service_access_policy",
 		},
 		{
-			Name: "aws_cloudtrail",
+			Name:    "aws_cloudtrail",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/AWS-CloudTrail.svg",
 		},
 		{
 			Name: "aws_cloudtrail_event_data_store",
@@ -607,7 +643,8 @@ var (
 			Name: "aws_cloudwatch_event_permission",
 		},
 		{
-			Name: "aws_cloudwatch_event_rule",
+			Name:    "aws_cloudwatch_event_rule",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/Amazon-CloudWatch_Rule.svg",
 		},
 		{
 			Name: "aws_cloudwatch_event_target",
@@ -622,7 +659,8 @@ var (
 			Name: "aws_cloudwatch_log_destination_policy",
 		},
 		{
-			Name: "aws_cloudwatch_log_group",
+			Name:    "aws_cloudwatch_log_group",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/Amazon-CloudWatch_Logs.svg",
 		},
 		{
 			Name: "aws_cloudwatch_log_metric_filter",
@@ -637,7 +675,8 @@ var (
 			Name: "aws_cloudwatch_log_subscription_filter",
 		},
 		{
-			Name: "aws_cloudwatch_metric_alarm",
+			Name:    "aws_cloudwatch_metric_alarm",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/Amazon-CloudWatch_Alarm.svg",
 		},
 		{
 			Name: "aws_cloudwatch_metric_stream",
@@ -646,7 +685,8 @@ var (
 			Name: "aws_cloudwatch_query_definition",
 		},
 		{
-			Name: "aws_codeartifact_domain",
+			Name:    "aws_codeartifact_domain",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Developer-Tools/64/AWS-CodeArtifact.svg",
 		},
 		{
 			Name: "aws_codeartifact_domain_permissions_policy",
@@ -658,7 +698,8 @@ var (
 			Name: "aws_codeartifact_repository_permissions_policy",
 		},
 		{
-			Name: "aws_codebuild_project",
+			Name:    "aws_codebuild_project",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Developer-Tools/64/AWS-CodeBuild.svg",
 		},
 		{
 			Name: "aws_codebuild_report_group",
@@ -676,7 +717,8 @@ var (
 			Name: "aws_codecatalyst_dev_environment",
 		},
 		{
-			Name: "aws_codecatalyst_project",
+			Name:    "aws_codecatalyst_project",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Developer-Tools/64/Amazon-CodeCatalyst.svg",
 		},
 		{
 			Name: "aws_codecatalyst_source_repository",
@@ -688,13 +730,15 @@ var (
 			Name: "aws_codecommit_approval_rule_template_association",
 		},
 		{
-			Name: "aws_codecommit_repository",
+			Name:    "aws_codecommit_repository",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Developer-Tools/64/AWS-CodeCommit.svg",
 		},
 		{
 			Name: "aws_codecommit_trigger",
 		},
 		{
-			Name: "aws_codedeploy_app",
+			Name:    "aws_codedeploy_app",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Developer-Tools/64/AWS-CodeDeploy.svg",
 		},
 		{
 			Name: "aws_codedeploy_deployment_config",
@@ -706,7 +750,8 @@ var (
 			Name: "aws_codegurureviewer_repository_association",
 		},
 		{
-			Name: "aws_codepipeline",
+			Name:    "aws_codepipeline",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Developer-Tools/64/AWS-CodePipeline.svg",
 		},
 		{
 			Name: "aws_codepipeline_custom_action_type",
@@ -715,7 +760,8 @@ var (
 			Name: "aws_codepipeline_webhook",
 		},
 		{
-			Name: "aws_codestarconnections_connection",
+			Name:    "aws_codestarconnections_connection",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Developer-Tools/64/AWS-CodeStar.svg",
 		},
 		{
 			Name: "aws_codestarconnections_host",
@@ -733,7 +779,8 @@ var (
 			Name: "aws_cognito_identity_pool_roles_attachment",
 		},
 		{
-			Name: "aws_cognito_identity_provider",
+			Name:    "aws_cognito_identity_provider",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/Amazon-Cognito.svg",
 		},
 		{
 			Name: "aws_cognito_managed_user_pool_client",
@@ -775,7 +822,8 @@ var (
 			Name: "aws_config_aggregate_authorization",
 		},
 		{
-			Name: "aws_config_config_rule",
+			Name:    "aws_config_config_rule",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/AWS-Config.svg",
 		},
 		{
 			Name: "aws_config_configuration_aggregator",
@@ -820,7 +868,8 @@ var (
 			Name: "aws_connect_hours_of_operation",
 		},
 		{
-			Name: "aws_connect_instance",
+			Name:    "aws_connect_instance",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Business-Applications/64/Amazon-Connect.svg",
 		},
 		{
 			Name: "aws_connect_instance_storage_config",
@@ -856,28 +905,34 @@ var (
 			Name: "aws_connect_vocabulary",
 		},
 		{
-			Name: "aws_controltower_control",
+			Name:    "aws_controltower_control",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/AWS-Control-Tower.svg",
 		},
 		{
-			Name: "aws_cur_report_definition",
+			Name:    "aws_cur_report_definition",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Cloud-Financial-Management/64/AWS-Cost-and-Usage-Report.svg",
 		},
 		{
-			Name: "aws_customer_gateway",
+			Name:    "aws_customer_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_Customer-Gateway.svg",
 		},
 		{
-			Name: "aws_dataexchange_data_set",
+			Name:    "aws_dataexchange_data_set",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/AWS-Data-Exchange.svg",
 		},
 		{
 			Name: "aws_dataexchange_revision",
 		},
 		{
-			Name: "aws_datapipeline_pipeline",
+			Name:    "aws_datapipeline_pipeline",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/AWS-Data-Pipeline.svg",
 		},
 		{
 			Name: "aws_datapipeline_pipeline_definition",
 		},
 		{
-			Name: "aws_datasync_agent",
+			Name:    "aws_datasync_agent",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Migration-Transfer/AWS-Datasync_Agent.svg",
 		},
 		{
 			Name: "aws_datasync_location_azure_blob",
@@ -913,10 +968,12 @@ var (
 			Name: "aws_datasync_location_smb",
 		},
 		{
-			Name: "aws_datasync_task",
+			Name:    "aws_datasync_task",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Migration-Transfer/64/AWS-DataSync.svg",
 		},
 		{
-			Name: "aws_dax_cluster",
+			Name:    "aws_dax_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Database/Amazon-DynamoDB_Amazon-DynamoDB-Accelerator.svg",
 		},
 		{
 			Name: "aws_dax_parameter_group",
@@ -931,7 +988,8 @@ var (
 			Name: "aws_db_event_subscription",
 		},
 		{
-			Name: "aws_db_instance",
+			Name:    "aws_db_instance",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Database/64/Amazon-RDS.svg",
 		},
 		{
 			Name: "aws_db_instance_automated_backups_replication",
@@ -946,7 +1004,8 @@ var (
 			Name: "aws_db_parameter_group",
 		},
 		{
-			Name: "aws_db_proxy",
+			Name:    "aws_db_proxy",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Database/Amazon-RDS-Proxy-Instance.svg",
 		},
 		{
 			Name: "aws_db_proxy_default_target_group",
@@ -985,7 +1044,8 @@ var (
 			Name: "aws_default_vpc_dhcp_options",
 		},
 		{
-			Name: "aws_detective_graph",
+			Name:    "aws_detective_graph",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/Amazon-Detective.svg",
 		},
 		{
 			Name: "aws_detective_invitation_accepter",
@@ -1003,7 +1063,8 @@ var (
 			Name: "aws_devicefarm_network_profile",
 		},
 		{
-			Name: "aws_devicefarm_project",
+			Name:    "aws_devicefarm_project",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Front-End-Web-Mobile/64/AWS-Device-Farm.svg",
 		},
 		{
 			Name: "aws_devicefarm_test_grid_project",
@@ -1015,7 +1076,8 @@ var (
 			Name: "aws_directory_service_conditional_forwarder",
 		},
 		{
-			Name: "aws_directory_service_directory",
+			Name:    "aws_directory_service_directory",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Directory-Service.svg",
 		},
 		{
 			Name: "aws_directory_service_log_subscription",
@@ -1048,19 +1110,22 @@ var (
 			Name: "aws_dms_event_subscription",
 		},
 		{
-			Name: "aws_dms_replication_instance",
+			Name:    "aws_dms_replication_instance",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Database/64/AWS-Database-Migration-Service.svg",
 		},
 		{
 			Name: "aws_dms_replication_subnet_group",
 		},
 		{
-			Name: "aws_dms_replication_task",
+			Name:    "aws_dms_replication_task",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Database/AWS-Database-Migration-Service_Database-migration-workflow-or-job.svg",
 		},
 		{
 			Name: "aws_dms_s3_endpoint",
 		},
 		{
-			Name: "aws_docdb_cluster",
+			Name:    "aws_docdb_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Database/64/Amazon-DocumentDB.svg",
 		},
 		{
 			Name: "aws_docdb_cluster_instance",
@@ -1084,7 +1149,8 @@ var (
 			Name: "aws_dx_bgp_peer",
 		},
 		{
-			Name: "aws_dx_connection",
+			Name:    "aws_dx_connection",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/AWS-Direct-Connect.svg",
 		},
 		{
 			Name: "aws_dx_connection_association",
@@ -1093,7 +1159,8 @@ var (
 			Name: "aws_dx_connection_confirmation",
 		},
 		{
-			Name: "aws_dx_gateway",
+			Name:    "aws_dx_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/AWS-Direct-Connect_Gateway.svg",
 		},
 		{
 			Name: "aws_dx_gateway_association",
@@ -1147,10 +1214,12 @@ var (
 			Name: "aws_dynamodb_kinesis_streaming_destination",
 		},
 		{
-			Name: "aws_dynamodb_table",
+			Name:    "aws_dynamodb_table",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Database/Amazon-DynamoDB_Table.svg",
 		},
 		{
-			Name: "aws_dynamodb_table_item",
+			Name:    "aws_dynamodb_table_item",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Database/Amazon-DynamoDB_Item.svg",
 		},
 		{
 			Name: "aws_dynamodb_table_replica",
@@ -1165,7 +1234,8 @@ var (
 			Name: "aws_ebs_encryption_by_default",
 		},
 		{
-			Name: "aws_ebs_snapshot",
+			Name:    "aws_ebs_snapshot",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Storage/Amazon-Elastic-Block-Store_Snapshot.svg",
 		},
 		{
 			Name: "aws_ebs_snapshot_copy",
@@ -1174,7 +1244,8 @@ var (
 			Name: "aws_ebs_snapshot_import",
 		},
 		{
-			Name: "aws_ebs_volume",
+			Name:    "aws_ebs_volume",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Storage/Amazon-Elastic-Block-Store_Volume.svg",
 		},
 		{
 			Name: "aws_ec2_availability_zone_group",
@@ -1183,7 +1254,8 @@ var (
 			Name: "aws_ec2_capacity_reservation",
 		},
 		{
-			Name: "aws_ec2_carrier_gateway",
+			Name:    "aws_ec2_carrier_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_Carrier-Gateway.svg",
 		},
 		{
 			Name: "aws_ec2_client_vpn_authorization_rule",
@@ -1249,7 +1321,8 @@ var (
 			Name: "aws_ec2_traffic_mirror_target",
 		},
 		{
-			Name: "aws_ec2_transit_gateway",
+			Name:    "aws_ec2_transit_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/AWS-Transit-Gateway.svg",
 		},
 		{
 			Name: "aws_ec2_transit_gateway_connect",
@@ -1270,7 +1343,8 @@ var (
 			Name: "aws_ec2_transit_gateway_multicast_group_source",
 		},
 		{
-			Name: "aws_ec2_transit_gateway_peering_attachment",
+			Name:    "aws_ec2_transit_gateway_peering_attachment",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_Peering-Connection.svg",
 		},
 		{
 			Name: "aws_ec2_transit_gateway_peering_attachment_accepter",
@@ -1291,13 +1365,15 @@ var (
 			Name: "aws_ec2_transit_gateway_route_table",
 		},
 		{
-			Name: "aws_ec2_transit_gateway_route_table_association",
+			Name:    "aws_ec2_transit_gateway_route_table_association",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/AWS-Cloud-WAN_Transit-Gateway-Route-Table-Attachment.svg",
 		},
 		{
 			Name: "aws_ec2_transit_gateway_route_table_propagation",
 		},
 		{
-			Name: "aws_ec2_transit_gateway_vpc_attachment",
+			Name:    "aws_ec2_transit_gateway_vpc_attachment",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/AWS-Transit-Gateway_Attachment.svg",
 		},
 		{
 			Name: "aws_ec2_transit_gateway_vpc_attachment_accepter",
@@ -1318,13 +1394,15 @@ var (
 			Name: "aws_ecr_replication_configuration",
 		},
 		{
-			Name: "aws_ecr_repository",
+			Name:    "aws_ecr_repository",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Containers/64/Amazon-Elastic-Container-Registry.svg",
 		},
 		{
 			Name: "aws_ecr_repository_policy",
 		},
 		{
-			Name: "aws_ecrpublic_repository",
+			Name:    "aws_ecrpublic_repository",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Containers/64/Amazon-Elastic-Container-Registry.svg",
 		},
 		{
 			Name: "aws_ecrpublic_repository_policy",
@@ -1336,19 +1414,22 @@ var (
 			Name: "aws_ecs_capacity_provider",
 		},
 		{
-			Name: "aws_ecs_cluster",
+			Name:    "aws_ecs_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Containers/64/Amazon-Elastic-Container-Service.svg",
 		},
 		{
 			Name: "aws_ecs_cluster_capacity_providers",
 		},
 		{
-			Name: "aws_ecs_service",
+			Name:    "aws_ecs_service",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Containers/Amazon-Elastic-Container-Service_Service.svg",
 		},
 		{
 			Name: "aws_ecs_tag",
 		},
 		{
-			Name: "aws_ecs_task_definition",
+			Name:    "aws_ecs_task_definition",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Containers/Amazon-Elastic-Container-Service_Task.svg",
 		},
 		{
 			Name: "aws_ecs_task_set",
@@ -1360,7 +1441,8 @@ var (
 			Name: "aws_efs_backup_policy",
 		},
 		{
-			Name: "aws_efs_file_system",
+			Name:    "aws_efs_file_system",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/Amazon-EFS.svg",
 		},
 		{
 			Name: "aws_efs_file_system_policy",
@@ -1375,7 +1457,8 @@ var (
 			Name: "aws_egress_only_internet_gateway",
 		},
 		{
-			Name: "aws_eip",
+			Name:    "aws_eip",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Compute/Amazon-EC2_Elastic-IP-Address.svg",
 		},
 		{
 			Name: "aws_eip_association",
@@ -1384,19 +1467,23 @@ var (
 			Name: "aws_eks_addon",
 		},
 		{
-			Name: "aws_eks_cluster",
+			Name:    "aws_eks_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Containers/64/Amazon-Elastic-Kubernetes-Service.svg",
 		},
 		{
-			Name: "aws_eks_fargate_profile",
+			Name:    "aws_eks_fargate_profile",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Containers/64/AWS-Fargate.svg",
 		},
 		{
 			Name: "aws_eks_identity_provider_config",
 		},
 		{
-			Name: "aws_eks_node_group",
+			Name:    "aws_eks_node_group",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Compute/64/Amazon-EC2.svg",
 		},
 		{
-			Name: "aws_elastic_beanstalk_application",
+			Name:    "aws_elastic_beanstalk_application",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Compute/64/AWS-Elastic-Beanstalk.svg",
 		},
 		{
 			Name: "aws_elastic_beanstalk_application_version",
@@ -1408,7 +1495,8 @@ var (
 			Name: "aws_elastic_beanstalk_environment",
 		},
 		{
-			Name: "aws_elasticache_cluster",
+			Name:    "aws_elasticache_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Database/64/Amazon-ElastiCache.svg",
 		},
 		{
 			Name: "aws_elasticache_global_replication_group",
@@ -1417,7 +1505,8 @@ var (
 			Name: "aws_elasticache_parameter_group",
 		},
 		{
-			Name: "aws_elasticache_replication_group",
+			Name:    "aws_elasticache_replication_group",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Database/Amazon-ElastiCache_Cache-Node.svg",
 		},
 		{
 			Name: "aws_elasticache_subnet_group",
@@ -1447,7 +1536,8 @@ var (
 			Name: "aws_elastictranscoder_preset",
 		},
 		{
-			Name: "aws_elb",
+			Name:    "aws_elb",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Elastic-Load-Balancing_Classic-Load-Balancer.svg",
 		},
 		{
 			Name: "aws_elb_attachment",
@@ -1456,7 +1546,8 @@ var (
 			Name: "aws_emr_block_public_access_configuration",
 		},
 		{
-			Name: "aws_emr_cluster",
+			Name:    "aws_emr_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-EMR.svg",
 		},
 		{
 			Name: "aws_emr_instance_fleet",
@@ -1492,13 +1583,15 @@ var (
 			Name: "aws_evidently_launch",
 		},
 		{
-			Name: "aws_evidently_project",
+			Name:    "aws_evidently_project",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/Amazon-CloudWatch_Evidently.svg",
 		},
 		{
 			Name: "aws_evidently_segment",
 		},
 		{
-			Name: "aws_finspace_kx_cluster",
+			Name:    "aws_finspace_kx_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-FinSpace.svg",
 		},
 		{
 			Name: "aws_finspace_kx_database",
@@ -1510,19 +1603,23 @@ var (
 			Name: "aws_finspace_kx_user",
 		},
 		{
-			Name: "aws_fis_experiment_template",
+			Name:    "aws_fis_experiment_template",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/AWS-Fault-Injection-Simulator.svg",
 		},
 		{
-			Name: "aws_flow_log",
+			Name:    "aws_flow_log",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_Flow-Logs.svg",
 		},
 		{
 			Name: "aws_fms_admin_account",
 		},
 		{
-			Name: "aws_fms_policy",
+			Name:    "aws_fms_policy",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Firewall-Manager.svg",
 		},
 		{
-			Name: "aws_fsx_backup",
+			Name:    "aws_fsx_backup",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/Amazon-FSx.svg",
 		},
 		{
 			Name: "aws_fsx_data_repository_association",
@@ -1531,10 +1628,12 @@ var (
 			Name: "aws_fsx_file_cache",
 		},
 		{
-			Name: "aws_fsx_lustre_file_system",
+			Name:    "aws_fsx_lustre_file_system",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/Amazon-FSx-for-Lustre.svg",
 		},
 		{
-			Name: "aws_fsx_ontap_file_system",
+			Name:    "aws_fsx_ontap_file_system",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/Amazon-FSx-for-NetApp-ONTAP.svg",
 		},
 		{
 			Name: "aws_fsx_ontap_storage_virtual_machine",
@@ -1543,7 +1642,8 @@ var (
 			Name: "aws_fsx_ontap_volume",
 		},
 		{
-			Name: "aws_fsx_openzfs_file_system",
+			Name:    "aws_fsx_openzfs_file_system",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/Amazon-FSx-for-OpenZFS.svg",
 		},
 		{
 			Name: "aws_fsx_openzfs_snapshot",
@@ -1552,7 +1652,8 @@ var (
 			Name: "aws_fsx_openzfs_volume",
 		},
 		{
-			Name: "aws_fsx_windows_file_system",
+			Name:    "aws_fsx_windows_file_system",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/Amazon-FSx-for-WFS.svg",
 		},
 		{
 			Name: "aws_gamelift_alias",
@@ -1561,7 +1662,8 @@ var (
 			Name: "aws_gamelift_build",
 		},
 		{
-			Name: "aws_gamelift_fleet",
+			Name:    "aws_gamelift_fleet",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Games/64/Amazon-GameLift.svg",
 		},
 		{
 			Name: "aws_gamelift_game_server_group",
@@ -1573,13 +1675,15 @@ var (
 			Name: "aws_gamelift_script",
 		},
 		{
-			Name: "aws_glacier_vault",
+			Name:    "aws_glacier_vault",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/Amazon-Simple-Storage-Service-Glacier.svg",
 		},
 		{
 			Name: "aws_glacier_vault_lock",
 		},
 		{
-			Name: "aws_globalaccelerator_accelerator",
+			Name:    "aws_globalaccelerator_accelerator",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/AWS-Global-Accelerator.svg",
 		},
 		{
 			Name: "aws_globalaccelerator_custom_routing_accelerator",
@@ -1597,10 +1701,12 @@ var (
 			Name: "aws_globalaccelerator_listener",
 		},
 		{
-			Name: "aws_glue_catalog_database",
+			Name:    "aws_glue_catalog_database",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Analytics/AWS-Glue_Data-Catalog.svg",
 		},
 		{
-			Name: "aws_glue_catalog_table",
+			Name:    "aws_glue_catalog_table",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Analytics/AWS-Glue_Data-Catalog.svg",
 		},
 		{
 			Name: "aws_glue_classifier",
@@ -1609,7 +1715,8 @@ var (
 			Name: "aws_glue_connection",
 		},
 		{
-			Name: "aws_glue_crawler",
+			Name:    "aws_glue_crawler",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Analytics/AWS-Glue_Crawler.svg",
 		},
 		{
 			Name: "aws_glue_data_catalog_encryption_settings",
@@ -1621,7 +1728,8 @@ var (
 			Name: "aws_glue_dev_endpoint",
 		},
 		{
-			Name: "aws_glue_job",
+			Name:    "aws_glue_job",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/AWS-Glue.svg",
 		},
 		{
 			Name: "aws_glue_ml_transform",
@@ -1660,7 +1768,8 @@ var (
 			Name: "aws_grafana_role_association",
 		},
 		{
-			Name: "aws_grafana_workspace",
+			Name:    "aws_grafana_workspace",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/Amazon-Managed-Grafana.svg",
 		},
 		{
 			Name: "aws_grafana_workspace_api_key",
@@ -1669,7 +1778,8 @@ var (
 			Name: "aws_grafana_workspace_saml_configuration",
 		},
 		{
-			Name: "aws_guardduty_detector",
+			Name:    "aws_guardduty_detector",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/Amazon-GuardDuty.svg",
 		},
 		{
 			Name: "aws_guardduty_filter",
@@ -1696,7 +1806,8 @@ var (
 			Name: "aws_guardduty_threatintelset",
 		},
 		{
-			Name: "aws_iam_access_key",
+			Name:    "aws_iam_access_key",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_Long-Term-Security-Credential.svg",
 		},
 		{
 			Name: "aws_iam_account_alias",
@@ -1705,13 +1816,15 @@ var (
 			Name: "aws_iam_account_password_policy",
 		},
 		{
-			Name: "aws_iam_group",
+			Name:    "aws_iam_group",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/General-Icons/Light/Users_Light.svg",
 		},
 		{
 			Name: "aws_iam_group_membership",
 		},
 		{
-			Name: "aws_iam_group_policy",
+			Name:    "aws_iam_group_policy",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_Permissions.svg",
 		},
 		{
 			Name: "aws_iam_group_policy_attachment",
@@ -1723,7 +1836,8 @@ var (
 			Name: "aws_iam_openid_connect_provider",
 		},
 		{
-			Name: "aws_iam_policy",
+			Name:    "aws_iam_policy",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_Permissions.svg",
 		},
 		{
 			Name: "aws_iam_policy_attachment",
@@ -1733,7 +1847,8 @@ var (
 			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_Role.svg",
 		},
 		{
-			Name: "aws_iam_role_policy",
+			Name:    "aws_iam_role_policy",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_Permissions.svg",
 		},
 		{
 			Name: "aws_iam_role_policy_attachment",
@@ -1757,7 +1872,8 @@ var (
 			Name: "aws_iam_signing_certificate",
 		},
 		{
-			Name: "aws_iam_user",
+			Name:    "aws_iam_user",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/General-Icons/Light/User_Light.svg",
 		},
 		{
 			Name: "aws_iam_user_group_membership",
@@ -1766,7 +1882,8 @@ var (
 			Name: "aws_iam_user_login_profile",
 		},
 		{
-			Name: "aws_iam_user_policy",
+			Name:    "aws_iam_user_policy",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_Permissions.svg",
 		},
 		{
 			Name: "aws_iam_user_policy_attachment",
@@ -1775,7 +1892,8 @@ var (
 			Name: "aws_iam_user_ssh_key",
 		},
 		{
-			Name: "aws_iam_virtual_mfa_device",
+			Name:    "aws_iam_virtual_mfa_device",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_MFA-Token.svg",
 		},
 		{
 			Name: "aws_identitystore_group",
@@ -1796,7 +1914,8 @@ var (
 			Name: "aws_imagebuilder_distribution_configuration",
 		},
 		{
-			Name: "aws_imagebuilder_image",
+			Name:    "aws_imagebuilder_image",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Compute/64/Amazon-EC2-Image-Builder.svg",
 		},
 		{
 			Name: "aws_imagebuilder_image_pipeline",
@@ -1811,7 +1930,8 @@ var (
 			Name: "aws_inspector2_delegated_admin_account",
 		},
 		{
-			Name: "aws_inspector2_enabler",
+			Name:    "aws_inspector2_enabler",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/Amazon-Inspector.svg",
 		},
 		{
 			Name: "aws_inspector2_member_association",
@@ -1829,10 +1949,12 @@ var (
 			Name: "aws_inspector_resource_group",
 		},
 		{
-			Name: "aws_instance",
+			Name:    "aws_instance",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Compute/Amazon-EC2_Instance.svg",
 		},
 		{
-			Name: "aws_internet_gateway",
+			Name:    "aws_internet_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_Internet-Gateway.svg",
 		},
 		{
 			Name: "aws_internet_gateway_attachment",
@@ -1844,7 +1966,8 @@ var (
 			Name: "aws_iot_authorizer",
 		},
 		{
-			Name: "aws_iot_certificate",
+			Name:    "aws_iot_certificate",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/IoT/AWS-IoT_Certificate.svg",
 		},
 		{
 			Name: "aws_iot_indexing_configuration",
@@ -1853,7 +1976,8 @@ var (
 			Name: "aws_iot_logging_options",
 		},
 		{
-			Name: "aws_iot_policy",
+			Name:    "aws_iot_policy",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/IoT/AWS-IoT_Policy.svg",
 		},
 		{
 			Name: "aws_iot_policy_attachment",
@@ -1865,7 +1989,8 @@ var (
 			Name: "aws_iot_role_alias",
 		},
 		{
-			Name: "aws_iot_thing",
+			Name:    "aws_iot_thing",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/category/64/Internet-of-Things.svg",
 		},
 		{
 			Name: "aws_iot_thing_group",
@@ -1880,13 +2005,15 @@ var (
 			Name: "aws_iot_thing_type",
 		},
 		{
-			Name: "aws_iot_topic_rule",
+			Name:    "aws_iot_topic_rule",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/IoT/AWS-IoT-Rule.svg",
 		},
 		{
 			Name: "aws_iot_topic_rule_destination",
 		},
 		{
-			Name: "aws_ivs_channel",
+			Name:    "aws_ivs_channel",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Media-Services/64/Amazon-Interactive-Video-Service.svg",
 		},
 		{
 			Name: "aws_ivs_playback_key_pair",
@@ -1898,7 +2025,8 @@ var (
 			Name: "aws_ivschat_logging_configuration",
 		},
 		{
-			Name: "aws_ivschat_room",
+			Name:    "aws_ivschat_room",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Media-Services/64/Amazon-Interactive-Video-Service.svg",
 		},
 		{
 			Name: "aws_kendra_data_source",
@@ -1910,7 +2038,8 @@ var (
 			Name: "aws_kendra_faq",
 		},
 		{
-			Name: "aws_kendra_index",
+			Name:    "aws_kendra_index",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Machine-Learning/64/Amazon-Kendra.svg",
 		},
 		{
 			Name: "aws_kendra_query_suggestions_block_list",
@@ -1919,7 +2048,8 @@ var (
 			Name: "aws_kendra_thesaurus",
 		},
 		{
-			Name: "aws_key_pair",
+			Name:    "aws_key_pair",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Key-Management-Service_External-Key-Store.svg",
 		},
 		{
 			Name: "aws_keyspaces_keyspace",
@@ -1928,19 +2058,23 @@ var (
 			Name: "aws_keyspaces_table",
 		},
 		{
-			Name: "aws_kinesis_analytics_application",
+			Name:    "aws_kinesis_analytics_application",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-Kinesis-Data-Analytics.svg",
 		},
 		{
-			Name: "aws_kinesis_firehose_delivery_stream",
+			Name:    "aws_kinesis_firehose_delivery_stream",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-Kinesis-Data-Firehose.svg",
 		},
 		{
-			Name: "aws_kinesis_stream",
+			Name:    "aws_kinesis_stream",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-Kinesis.svg",
 		},
 		{
 			Name: "aws_kinesis_stream_consumer",
 		},
 		{
-			Name: "aws_kinesis_video_stream",
+			Name:    "aws_kinesis_video_stream",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Media-Services/64/Amazon-Kinesis-Video-Streams.svg",
 		},
 		{
 			Name: "aws_kinesisanalyticsv2_application",
@@ -1958,13 +2092,15 @@ var (
 			Name: "aws_kms_custom_key_store",
 		},
 		{
-			Name: "aws_kms_external_key",
+			Name:    "aws_kms_external_key",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Key-Management-Service_External-Key-Store.svg",
 		},
 		{
 			Name: "aws_kms_grant",
 		},
 		{
-			Name: "aws_kms_key",
+			Name:    "aws_kms_key",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Key-Management-Service.svg",
 		},
 		{
 			Name: "aws_kms_key_policy",
@@ -1985,7 +2121,8 @@ var (
 			Name: "aws_lakeformation_permissions",
 		},
 		{
-			Name: "aws_lakeformation_resource",
+			Name:    "aws_lakeformation_resource",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/AWS-Lake-Formation.svg",
 		},
 		{
 			Name: "aws_lakeformation_resource_lf_tags",
@@ -2000,7 +2137,8 @@ var (
 			Name: "aws_lambda_event_source_mapping",
 		},
 		{
-			Name: "aws_lambda_function",
+			Name:    "aws_lambda_function",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Compute/64/AWS-Lambda.svg",
 		},
 		{
 			Name: "aws_lambda_function_event_invoke_config",
@@ -2030,7 +2168,8 @@ var (
 			Name: "aws_launch_template",
 		},
 		{
-			Name: "aws_lb",
+			Name:    "aws_lb",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/Elastic-Load-Balancing.svg",
 		},
 		{
 			Name: "aws_lb_cookie_stickiness_policy",
@@ -2054,7 +2193,8 @@ var (
 			Name: "aws_lb_target_group_attachment",
 		},
 		{
-			Name: "aws_lex_bot",
+			Name:    "aws_lex_bot",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Machine-Learning/64/Amazon-Lex.svg",
 		},
 		{
 			Name: "aws_lex_bot_alias",
@@ -2114,7 +2254,8 @@ var (
 			Name: "aws_lightsail_domain_entry",
 		},
 		{
-			Name: "aws_lightsail_instance",
+			Name:    "aws_lightsail_instance",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Compute/64/Amazon-Lightsail.svg",
 		},
 		{
 			Name: "aws_lightsail_instance_public_ports",
@@ -2174,7 +2315,8 @@ var (
 			Name: "aws_location_tracker_association",
 		},
 		{
-			Name: "aws_macie2_account",
+			Name:    "aws_macie2_account",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/Amazon-Macie.svg",
 		},
 		{
 			Name: "aws_macie2_classification_export_configuration",
@@ -2201,19 +2343,23 @@ var (
 			Name: "aws_main_route_table_association",
 		},
 		{
-			Name: "aws_media_convert_queue",
+			Name:    "aws_media_convert_queue",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Media-Services/64/AWS-Elemental-MediaConvert.svg",
 		},
 		{
-			Name: "aws_media_package_channel",
+			Name:    "aws_media_package_channel",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Media-Services/64/AWS-Elemental-MediaPackage.svg",
 		},
 		{
-			Name: "aws_media_store_container",
+			Name:    "aws_media_store_container",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Media-Services/64/AWS-Elemental-MediaStore.svg",
 		},
 		{
 			Name: "aws_media_store_container_policy",
 		},
 		{
-			Name: "aws_medialive_channel",
+			Name:    "aws_medialive_channel",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Media-Services/64/AWS-Elemental-MediaLive.svg",
 		},
 		{
 			Name: "aws_medialive_input",
@@ -2231,7 +2377,8 @@ var (
 			Name: "aws_memorydb_acl",
 		},
 		{
-			Name: "aws_memorydb_cluster",
+			Name:    "aws_memorydb_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Database/64/Amazon-MemoryDB-for-Redis.svg",
 		},
 		{
 			Name: "aws_memorydb_parameter_group",
@@ -2246,13 +2393,15 @@ var (
 			Name: "aws_memorydb_user",
 		},
 		{
-			Name: "aws_mq_broker",
+			Name:    "aws_mq_broker",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/App-Integration/64/Amazon-MQ.svg",
 		},
 		{
 			Name: "aws_mq_configuration",
 		},
 		{
-			Name: "aws_msk_cluster",
+			Name:    "aws_msk_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-Managed-Streaming-for-Apache-Kafka.svg",
 		},
 		{
 			Name: "aws_msk_cluster_policy",
@@ -2270,7 +2419,8 @@ var (
 			Name: "aws_msk_vpc_connection",
 		},
 		{
-			Name: "aws_mskconnect_connector",
+			Name:    "aws_mskconnect_connector",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Analytics/Amazon-MSK_Amazon-MSK-Connect.svg",
 		},
 		{
 			Name: "aws_mskconnect_custom_plugin",
@@ -2279,13 +2429,16 @@ var (
 			Name: "aws_mskconnect_worker_configuration",
 		},
 		{
-			Name: "aws_mwaa_environment",
+			Name:    "aws_mwaa_environment",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/App-Integration/64/Amazon-Managed-Workflows-for-Apache-Airflow.svg",
 		},
 		{
-			Name: "aws_nat_gateway",
+			Name:    "aws_nat_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_NAT-Gateway.svg",
 		},
 		{
-			Name: "aws_neptune_cluster",
+			Name:    "aws_neptune_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Database/64/Amazon-Neptune.svg",
 		},
 		{
 			Name: "aws_neptune_cluster_endpoint",
@@ -2312,7 +2465,8 @@ var (
 			Name: "aws_neptune_subnet_group",
 		},
 		{
-			Name: "aws_network_acl",
+			Name:    "aws_network_acl",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_Network-Access-Control-List.svg",
 		},
 		{
 			Name: "aws_network_acl_association",
@@ -2321,7 +2475,8 @@ var (
 			Name: "aws_network_acl_rule",
 		},
 		{
-			Name: "aws_network_interface",
+			Name:    "aws_network_interface",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_Elastic-Network-Interface.svg",
 		},
 		{
 			Name: "aws_network_interface_attachment",
@@ -2330,7 +2485,8 @@ var (
 			Name: "aws_network_interface_sg_attachment",
 		},
 		{
-			Name: "aws_networkfirewall_firewall",
+			Name:    "aws_networkfirewall_firewall",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Network-Firewall.svg",
 		},
 		{
 			Name: "aws_networkfirewall_firewall_policy",
@@ -2408,7 +2564,8 @@ var (
 			Name: "aws_oam_sink_policy",
 		},
 		{
-			Name: "aws_opensearch_domain",
+			Name:    "aws_opensearch_domain",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-OpenSearch-Service.svg",
 		},
 		{
 			Name: "aws_opensearch_domain_policy",
@@ -2483,7 +2640,8 @@ var (
 			Name: "aws_opsworks_rds_db_instance",
 		},
 		{
-			Name: "aws_opsworks_stack",
+			Name:    "aws_opsworks_stack",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/AWS-OpsWorks.svg",
 		},
 		{
 			Name: "aws_opsworks_static_web_layer",
@@ -2492,16 +2650,19 @@ var (
 			Name: "aws_opsworks_user_profile",
 		},
 		{
-			Name: "aws_organizations_account",
+			Name:    "aws_organizations_account",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/AWS-Organizations_Account.svg",
 		},
 		{
 			Name: "aws_organizations_delegated_administrator",
 		},
 		{
-			Name: "aws_organizations_organization",
+			Name:    "aws_organizations_organization",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/AWS-Organizations.svg",
 		},
 		{
-			Name: "aws_organizations_organizational_unit",
+			Name:    "aws_organizations_organizational_unit",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/AWS-Organizations_Organizational-Unit.svg",
 		},
 		{
 			Name: "aws_organizations_policy",
@@ -2528,7 +2689,8 @@ var (
 			Name: "aws_pinpoint_apns_voip_sandbox_channel",
 		},
 		{
-			Name: "aws_pinpoint_app",
+			Name:    "aws_pinpoint_app",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Business-Applications/64/Amazon-Pinpoint.svg",
 		},
 		{
 			Name: "aws_pinpoint_baidu_channel",
@@ -2546,7 +2708,8 @@ var (
 			Name: "aws_pinpoint_sms_channel",
 		},
 		{
-			Name: "aws_pipes_pipe",
+			Name:    "aws_pipes_pipe",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Application-Integration/Amazon-EventBridge_Pipes.svg",
 		},
 		{
 			Name: "aws_placement_group",
@@ -2558,19 +2721,22 @@ var (
 			Name: "aws_prometheus_rule_group_namespace",
 		},
 		{
-			Name: "aws_prometheus_workspace",
+			Name:    "aws_prometheus_workspace",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/Amazon-Managed-Service-for-Prometheus.svg",
 		},
 		{
 			Name: "aws_proxy_protocol_policy",
 		},
 		{
-			Name: "aws_qldb_ledger",
+			Name:    "aws_qldb_ledger",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Blockchain/64/Amazon-Quantum-Ledger-Database.svg",
 		},
 		{
 			Name: "aws_qldb_stream",
 		},
 		{
-			Name: "aws_quicksight_account_subscription",
+			Name:    "aws_quicksight_account_subscription",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-QuickSight.svg",
 		},
 		{
 			Name: "aws_quicksight_analysis",
@@ -2630,7 +2796,8 @@ var (
 			Name: "aws_ram_resource_association",
 		},
 		{
-			Name: "aws_ram_resource_share",
+			Name:    "aws_ram_resource_share",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Resource-Access-Manager.svg",
 		},
 		{
 			Name: "aws_ram_resource_share_accepter",
@@ -2642,7 +2809,8 @@ var (
 			Name: "aws_rbin_rule",
 		},
 		{
-			Name: "aws_rds_cluster",
+			Name:    "aws_rds_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Database/64/Amazon-RDS.svg",
 		},
 		{
 			Name: "aws_rds_cluster_activity_stream",
@@ -2672,7 +2840,8 @@ var (
 			Name: "aws_redshift_authentication_profile",
 		},
 		{
-			Name: "aws_redshift_cluster",
+			Name:    "aws_redshift_cluster",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Analytics/64/Amazon-Redshift.svg",
 		},
 		{
 			Name: "aws_redshift_cluster_iam_roles",
@@ -2753,7 +2922,8 @@ var (
 			Name: "aws_resourcegroups_resource",
 		},
 		{
-			Name: "aws_rolesanywhere_profile",
+			Name:    "aws_rolesanywhere_profile",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-Identity-Access-Management_IAM-Roles-Anywhere.svg",
 		},
 		{
 			Name: "aws_rolesanywhere_trust_anchor",
@@ -2831,7 +3001,8 @@ var (
 			Name: "aws_route53_vpc_association_authorization",
 		},
 		{
-			Name: "aws_route53_zone",
+			Name:    "aws_route53_zone",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/Amazon-Route-53.svg",
 		},
 		{
 			Name: "aws_route53_zone_association",
@@ -2870,7 +3041,8 @@ var (
 			Name: "aws_route_table_association",
 		},
 		{
-			Name: "aws_rum_app_monitor",
+			Name:    "aws_rum_app_monitor",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/Amazon-CloudWatch_RUM.svg",
 		},
 		{
 			Name: "aws_rum_metrics_destination",
@@ -2882,7 +3054,8 @@ var (
 			Name: "aws_s3_account_public_access_block",
 		},
 		{
-			Name: "aws_s3_bucket",
+			Name:    "aws_s3_bucket",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/Amazon-Simple-Storage-Service.svg",
 		},
 		{
 			Name: "aws_s3_bucket_accelerate_configuration",
@@ -2981,7 +3154,8 @@ var (
 			Name: "aws_s3outposts_endpoint",
 		},
 		{
-			Name: "aws_sagemaker_app",
+			Name:    "aws_sagemaker_app",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Machine-Learning/64/Amazon-SageMaker.svg",
 		},
 		{
 			Name: "aws_sagemaker_app_image_config",
@@ -3035,7 +3209,8 @@ var (
 			Name: "aws_sagemaker_monitoring_schedule",
 		},
 		{
-			Name: "aws_sagemaker_notebook_instance",
+			Name:    "aws_sagemaker_notebook_instance",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Machine-Learning/Amazon-SageMaker_Notebook.svg",
 		},
 		{
 			Name: "aws_sagemaker_notebook_instance_lifecycle_configuration",
@@ -3065,7 +3240,8 @@ var (
 			Name: "aws_sagemaker_workteam",
 		},
 		{
-			Name: "aws_scheduler_schedule",
+			Name:    "aws_scheduler_schedule",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Application-Integration/Amazon-EventBridge_Scheduler.svg",
 		},
 		{
 			Name: "aws_scheduler_schedule_group",
@@ -3074,16 +3250,19 @@ var (
 			Name: "aws_schemas_discoverer",
 		},
 		{
-			Name: "aws_schemas_registry",
+			Name:    "aws_schemas_registry",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Application-Integration/Amazon-EventBridge_Schema-Registry.svg",
 		},
 		{
 			Name: "aws_schemas_registry_policy",
 		},
 		{
-			Name: "aws_schemas_schema",
+			Name:    "aws_schemas_schema",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Application-Integration/Amazon-EventBridge_Schema.svg",
 		},
 		{
-			Name: "aws_secretsmanager_secret",
+			Name:    "aws_secretsmanager_secret",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Secrets-Manager.svg",
 		},
 		{
 			Name: "aws_secretsmanager_secret_policy",
@@ -3101,7 +3280,8 @@ var (
 			Name: "aws_security_group_rule",
 		},
 		{
-			Name: "aws_securityhub_account",
+			Name:    "aws_securityhub_account",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-Security-Hub.svg",
 		},
 		{
 			Name: "aws_securityhub_action_target",
@@ -3140,7 +3320,8 @@ var (
 			Name: "aws_service_discovery_http_namespace",
 		},
 		{
-			Name: "aws_service_discovery_instance",
+			Name:    "aws_service_discovery_instance",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/service/Networking-Content-Delivery/64/AWS-Cloud-Map.svg",
 		},
 		{
 			Name: "aws_service_discovery_private_dns_namespace",
@@ -3170,7 +3351,8 @@ var (
 			Name: "aws_servicecatalog_principal_portfolio_association",
 		},
 		{
-			Name: "aws_servicecatalog_product",
+			Name:    "aws_servicecatalog_product",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/AWS-Service-Catalog.svg",
 		},
 		{
 			Name: "aws_servicecatalog_product_portfolio_association",
@@ -3203,7 +3385,8 @@ var (
 			Name: "aws_ses_domain_dkim",
 		},
 		{
-			Name: "aws_ses_domain_identity",
+			Name:    "aws_ses_domain_identity",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Business-Applications/64/Amazon-Simple-Email-Service.svg",
 		},
 		{
 			Name: "aws_ses_domain_identity_verification",
@@ -3212,7 +3395,8 @@ var (
 			Name: "aws_ses_domain_mail_from",
 		},
 		{
-			Name: "aws_ses_email_identity",
+			Name:    "aws_ses_email_identity",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Business-Applications/64/Amazon-Simple-Email-Service.svg",
 		},
 		{
 			Name: "aws_ses_event_destination",
@@ -3251,7 +3435,8 @@ var (
 			Name: "aws_sesv2_dedicated_ip_pool",
 		},
 		{
-			Name: "aws_sesv2_email_identity",
+			Name:    "aws_sesv2_email_identity",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Business-Applications/64/Amazon-Simple-Email-Service.svg",
 		},
 		{
 			Name: "aws_sesv2_email_identity_feedback_attributes",
@@ -3308,7 +3493,8 @@ var (
 			Name: "aws_sns_sms_preferences",
 		},
 		{
-			Name: "aws_sns_topic",
+			Name:    "aws_sns_topic",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/App-Integration/64/Amazon-Simple-Notification-Service.svg",
 		},
 		{
 			Name: "aws_sns_topic_data_protection_policy",
@@ -3329,7 +3515,8 @@ var (
 			Name: "aws_spot_instance_request",
 		},
 		{
-			Name: "aws_sqs_queue",
+			Name:    "aws_sqs_queue",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/App-Integration/64/Amazon-Simple-Queue-Service.svg",
 		},
 		{
 			Name: "aws_sqs_queue_policy",
@@ -3350,10 +3537,12 @@ var (
 			Name: "aws_ssm_default_patch_baseline",
 		},
 		{
-			Name: "aws_ssm_document",
+			Name:    "aws_ssm_document",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/AWS-Systems-Manager_Documents.svg",
 		},
 		{
-			Name: "aws_ssm_maintenance_window",
+			Name:    "aws_ssm_maintenance_window",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/AWS-Systems-Manager_Maintenance-Windows.svg",
 		},
 		{
 			Name: "aws_ssm_maintenance_window_target",
@@ -3362,7 +3551,8 @@ var (
 			Name: "aws_ssm_maintenance_window_task",
 		},
 		{
-			Name: "aws_ssm_parameter",
+			Name:    "aws_ssm_parameter",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Management-Governance/64/AWS-Systems-Manager.svg",
 		},
 		{
 			Name: "aws_ssm_patch_baseline",
@@ -3389,7 +3579,8 @@ var (
 			Name: "aws_ssmincidents_replication_set",
 		},
 		{
-			Name: "aws_ssmincidents_response_plan",
+			Name:    "aws_ssmincidents_response_plan",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/AWS-Systems-Manager_Incident-Manager.svg",
 		},
 		{
 			Name: "aws_ssoadmin_account_assignment",
@@ -3413,7 +3604,8 @@ var (
 			Name: "aws_ssoadmin_permissions_boundary_attachment",
 		},
 		{
-			Name: "aws_storagegateway_cache",
+			Name:    "aws_storagegateway_cache",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Storage/AWS-Storage-Gateway_Cached-Volume.svg",
 		},
 		{
 			Name: "aws_storagegateway_cached_iscsi_volume",
@@ -3422,19 +3614,23 @@ var (
 			Name: "aws_storagegateway_file_system_association",
 		},
 		{
-			Name: "aws_storagegateway_gateway",
+			Name:    "aws_storagegateway_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Storage/64/AWS-Storage-Gateway.svg",
 		},
 		{
-			Name: "aws_storagegateway_nfs_file_share",
+			Name:    "aws_storagegateway_nfs_file_share",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Storage/AWS-Storage-Gateway_Amazon-S3-File-Gateway.svg",
 		},
 		{
-			Name: "aws_storagegateway_smb_file_share",
+			Name:    "aws_storagegateway_smb_file_share",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Storage/AWS-Storage-Gateway_Amazon-S3-File-Gateway.svg",
 		},
 		{
 			Name: "aws_storagegateway_stored_iscsi_volume",
 		},
 		{
-			Name: "aws_storagegateway_tape_pool",
+			Name:    "aws_storagegateway_tape_pool",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Storage/AWS-Storage-Gateway_Tape-Gateway.svg",
 		},
 		{
 			Name: "aws_storagegateway_upload_buffer",
@@ -3449,7 +3645,8 @@ var (
 			Name: "aws_swf_domain",
 		},
 		{
-			Name: "aws_synthetics_canary",
+			Name:    "aws_synthetics_canary",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Management-Governance/Amazon-CloudWatch_Synthetics.svg",
 		},
 		{
 			Name: "aws_synthetics_group",
@@ -3458,13 +3655,15 @@ var (
 			Name: "aws_synthetics_group_association",
 		},
 		{
-			Name: "aws_timestreamwrite_database",
+			Name:    "aws_timestreamwrite_database",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Database/64/Amazon-Timestream.svg",
 		},
 		{
 			Name: "aws_timestreamwrite_table",
 		},
 		{
-			Name: "aws_transcribe_language_model",
+			Name:    "aws_transcribe_language_model",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Machine-Learning/64/Amazon-Transcribe.svg",
 		},
 		{
 			Name: "aws_transcribe_medical_vocabulary",
@@ -3491,7 +3690,8 @@ var (
 			Name: "aws_transfer_profile",
 		},
 		{
-			Name: "aws_transfer_server",
+			Name:    "aws_transfer_server",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Migration-Transfer/64/AWS-Transfer-Family.svg",
 		},
 		{
 			Name: "aws_transfer_ssh_key",
@@ -3506,7 +3706,8 @@ var (
 			Name: "aws_transfer_workflow",
 		},
 		{
-			Name: "aws_verifiedaccess_instance",
+			Name:    "aws_verifiedaccess_instance",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/AWS-Verified-Access.svg",
 		},
 		{
 			Name: "aws_verifiedaccess_trust_provider",
@@ -3515,7 +3716,8 @@ var (
 			Name: "aws_volume_attachment",
 		},
 		{
-			Name: "aws_vpc",
+			Name:    "aws_vpc",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/Amazon-Virtual-Private-Cloud.svg",
 		},
 		{
 			Name: "aws_vpc_dhcp_options",
@@ -3524,7 +3726,8 @@ var (
 			Name: "aws_vpc_dhcp_options_association",
 		},
 		{
-			Name: "aws_vpc_endpoint",
+			Name:    "aws_vpc_endpoint",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_Endpoints.svg",
 		},
 		{
 			Name: "aws_vpc_endpoint_connection_accepter",
@@ -3587,7 +3790,8 @@ var (
 			Name: "aws_vpc_network_performance_metric_subscription",
 		},
 		{
-			Name: "aws_vpc_peering_connection",
+			Name:    "aws_vpc_peering_connection",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_Peering-Connection.svg",
 		},
 		{
 			Name: "aws_vpc_peering_connection_accepter",
@@ -3617,7 +3821,8 @@ var (
 			Name: "aws_vpclattice_resource_policy",
 		},
 		{
-			Name: "aws_vpclattice_service",
+			Name:    "aws_vpclattice_service",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Networking-Content-Delivery/64/Amazon-VPC-Lattice.svg",
 		},
 		{
 			Name: "aws_vpclattice_service_network",
@@ -3635,13 +3840,15 @@ var (
 			Name: "aws_vpclattice_target_group_attachment",
 		},
 		{
-			Name: "aws_vpn_connection",
+			Name:    "aws_vpn_connection",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_VPN-Connection.svg",
 		},
 		{
 			Name: "aws_vpn_connection_route",
 		},
 		{
-			Name: "aws_vpn_gateway",
+			Name:    "aws_vpn_gateway",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Networking-Content-Delivery/Amazon-VPC_VPN-Gateway.svg",
 		},
 		{
 			Name: "aws_vpn_gateway_attachment",
@@ -3668,7 +3875,8 @@ var (
 			Name: "aws_waf_regex_pattern_set",
 		},
 		{
-			Name: "aws_waf_rule",
+			Name:    "aws_waf_rule",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-WAF_Rule.svg",
 		},
 		{
 			Name: "aws_waf_rule_group",
@@ -3680,7 +3888,8 @@ var (
 			Name: "aws_waf_sql_injection_match_set",
 		},
 		{
-			Name: "aws_waf_web_acl",
+			Name:    "aws_waf_web_acl",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-WAF.svg",
 		},
 		{
 			Name: "aws_waf_xss_match_set",
@@ -3704,7 +3913,8 @@ var (
 			Name: "aws_wafregional_regex_pattern_set",
 		},
 		{
-			Name: "aws_wafregional_rule",
+			Name:    "aws_wafregional_rule",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/resource/Security-Identity-Compliance/AWS-WAF_Rule.svg",
 		},
 		{
 			Name: "aws_wafregional_rule_group",
@@ -3716,7 +3926,8 @@ var (
 			Name: "aws_wafregional_sql_injection_match_set",
 		},
 		{
-			Name: "aws_wafregional_web_acl",
+			Name:    "aws_wafregional_web_acl",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-WAF.svg",
 		},
 		{
 			Name: "aws_wafregional_web_acl_association",
@@ -3734,7 +3945,8 @@ var (
 			Name: "aws_wafv2_rule_group",
 		},
 		{
-			Name: "aws_wafv2_web_acl",
+			Name:    "aws_wafv2_web_acl",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/Security-Identity-Compliance/64/AWS-WAF.svg",
 		},
 		{
 			Name: "aws_wafv2_web_acl_association",
@@ -3743,7 +3955,8 @@ var (
 			Name: "aws_wafv2_web_acl_logging_configuration",
 		},
 		{
-			Name: "aws_worklink_fleet",
+			Name:    "aws_worklink_fleet",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/End-User-Computing/64/Amazon-WorkLink.svg",
 		},
 		{
 			Name: "aws_worklink_website_certificate_authority_association",
@@ -3758,7 +3971,8 @@ var (
 			Name: "aws_workspaces_ip_group",
 		},
 		{
-			Name: "aws_workspaces_workspace",
+			Name:    "aws_workspaces_workspace",
+			IconURL: "https://raw.githubusercontent.com/tf2d2/icons/main/aws/service/End-User-Computing/64/Amazon-WorkSpaces-Family.svg",
 		},
 		{
 			Name: "aws_xray_encryption_config",
