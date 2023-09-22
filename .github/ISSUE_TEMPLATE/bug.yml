@@ -1,0 +1,59 @@
+name: Report Bug
+description: Report a bug causing unexpected behaviour.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Thank you for reporting a bug! :+1:
+
+        Before submitting a bug report, please check for existing issues that may report the same issue to keep all relevant information in one place.
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Description of what should have happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Description of what actually happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-output
+    attributes:
+      label: Error/Panic Output Snippet
+      description: |
+        If relevant, provide a snippet of the error/panic output. This will be rendered with `shell` syntaxt highlighting, do not use [code fences](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks).
+      render: Shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: List of steps to reproduce the bug.
+      placeholder: |
+        1. `go run main.go`
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: |
+        Additional details such as links to any other relevant documentation, other GitHub issues and/or pull requests.
+
+        [How to reference Github Issues](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)
+    validations:
+      required: false
